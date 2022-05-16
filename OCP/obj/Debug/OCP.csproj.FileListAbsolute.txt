@@ -1,0 +1,6 @@
+G:\00-Programing\Solid\Solid\OCP\bin\Debug\OCP.dll
+G:\00-Programing\Solid\Solid\OCP\bin\Debug\OCP.pdb
+G:\00-Programing\Solid\Solid\OCP\obj\Debug\OCP.csproj.CoreCompileInputs.cache
+G:\00-Programing\Solid\Solid\OCP\obj\Debug\OCP.dll
+G:\00-Programing\Solid\Solid\OCP\obj\Debug\OCP.pdb
+G:\00-Programing\Solid\Solid\OCP\obj\Debug\OCP.csproj.AssemblyReference.cache

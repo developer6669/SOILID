@@ -1,0 +1,136 @@
+{
+  "version": 3,
+  "targets": {
+    "net5.0-windows7.0": {
+      "LSP/1.0.0": {
+        "type": "project",
+        "compile": {
+          "bin/placeholder/LSP.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/LSP.dll": {}
+        }
+      },
+      "OCP/1.0.0": {
+        "type": "project",
+        "compile": {
+          "bin/placeholder/OCP.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/OCP.dll": {}
+        }
+      },
+      "SRP/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "compile": {
+          "bin/placeholder/SRP.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/SRP.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "LSP/1.0.0": {
+      "type": "project",
+      "path": "../LSP/LSP.csproj",
+      "msbuildProject": "../LSP/LSP.csproj"
+    },
+    "OCP/1.0.0": {
+      "type": "project",
+      "path": "../OCP/OCP.csproj",
+      "msbuildProject": "../OCP/OCP.csproj"
+    },
+    "SRP/1.0.0": {
+      "type": "project",
+      "path": "../SRP/SRP.csproj",
+      "msbuildProject": "../SRP/SRP.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net5.0-windows7.0": [
+      "LSP >= 1.0.0",
+      "OCP >= 1.0.0",
+      "SRP >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\Developer6669\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "G:\\00-Programing\\Solid\\Solid\\Solid\\Solid.csproj",
+      "projectName": "Solid",
+      "projectPath": "G:\\00-Programing\\Solid\\Solid\\Solid\\Solid.csproj",
+      "packagesPath": "C:\\Users\\Developer6669\\.nuget\\packages\\",
+      "outputPath": "G:\\00-Programing\\Solid\\Solid\\Solid\\obj\\",
+      "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\Developer6669\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net5.0-windows7.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net5.0-windows7.0": {
+          "targetAlias": "net5.0-windows",
+          "projectReferences": {
+            "G:\\00-Programing\\Solid\\Solid\\LSP\\LSP.csproj": {
+              "projectPath": "G:\\00-Programing\\Solid\\Solid\\LSP\\LSP.csproj"
+            },
+            "G:\\00-Programing\\Solid\\Solid\\OCP\\OCP.csproj": {
+              "projectPath": "G:\\00-Programing\\Solid\\Solid\\OCP\\OCP.csproj"
+            },
+            "G:\\00-Programing\\Solid\\Solid\\SRP\\SRP.csproj": {
+              "projectPath": "G:\\00-Programing\\Solid\\Solid\\SRP\\SRP.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net5.0-windows7.0": {
+        "targetAlias": "net5.0-windows",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          },
+          "Microsoft.WindowsDesktop.App.WindowsForms": {
+            "privateAssets": "none"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.203\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

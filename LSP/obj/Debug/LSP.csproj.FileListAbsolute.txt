@@ -1,0 +1,5 @@
+G:\00-Programing\Solid\Solid\LSP\bin\Debug\LSP.dll
+G:\00-Programing\Solid\Solid\LSP\bin\Debug\LSP.pdb
+G:\00-Programing\Solid\Solid\LSP\obj\Debug\LSP.csproj.CoreCompileInputs.cache
+G:\00-Programing\Solid\Solid\LSP\obj\Debug\LSP.dll
+G:\00-Programing\Solid\Solid\LSP\obj\Debug\LSP.pdb
